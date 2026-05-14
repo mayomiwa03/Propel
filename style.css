@@ -109,6 +109,7 @@ nav {
   }
   nav {
     width: calc(100% - 30px);
+    padding: 1rem 0;
   }
   nav.genLayout {
     margin: 0 auto;
@@ -120,7 +121,7 @@ nav {
     width: 100%;
     right: 1rem;
     top: 4.5rem;
-    padding: 1rem 1.2rem;
+    padding: 0.5rem 1.2rem;
     position: absolute;
     flex-direction: column;
     z-index: 2;
@@ -230,14 +231,23 @@ nav {
     width: 100%;
     padding-inline: 1rem;
   }
+  .textSide > p {
+    padding: 0.7rem 1.5rem;
+    font-size: 0.9rem;
+  }
   .textSide > h1 {
     font-size: 2rem;
   }
   .btnHld > button {
     font-size: 1rem;
   }
-  .btnHld {
-    /* justify-content: center; */
+
+  .btnHld > button {
+    font-size: 0.9rem;
+    padding: 0.7rem 1.5rem;
+  }
+  .btnHld > img {
+    width: 120px;
   }
   .imgSide {
     width: 100%;
@@ -258,11 +268,7 @@ nav {
     width: 100px;
   }
   .explore {
-    bottom: -70px;
-    z-index: 0;
-  }
-  .explore > img {
-    width: 100px;
+    display: none;
   }
 }
 /* popular course */
