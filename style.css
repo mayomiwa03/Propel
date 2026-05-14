@@ -521,6 +521,13 @@ nav {
   .catTitle > h1,
   .excTitle > h1 {
     margin-bottom: 1rem;
+    font-size: 2rem;
+  }
+  .catTitle > h1 > span,
+  .excTitle > h1 > span {
+    position: absolute;
+    right: -30px;
+    bottom: -18px;
   }
   .catTitle > p,
   .excTitle > p {
