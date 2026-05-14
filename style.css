@@ -964,6 +964,11 @@ footer::before {
   }
   .footRight > p {
     font-size: 1rem;
+    text-align: start;
+  }
+  .footRight > div {
+    width: 320px;
+    align-items: center;
   }
   .footRight > div > button {
     padding: 1rem 3rem;
