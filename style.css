@@ -962,6 +962,9 @@ footer::before {
   .footRight {
     grid-row: 2;
   }
+  .footRight > div > input {
+    width: 50%;
+  }
   .footRight > p {
     font-size: 1rem;
     text-align: start;
