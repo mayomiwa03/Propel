@@ -545,6 +545,10 @@ nav {
   .catGrdCard {
     margin-top: 2rem;
   }
+  .catGrdCard:nth-child(2) > a {
+    font-size: 0.8rem;
+    padding: 0.5rem 1.5rem;
+  }
 }
 /* Benefits & Training*/
 .benefits,
@@ -637,9 +641,6 @@ nav {
   }
   .TraImgs > img {
     width: 100%;
-  }
-  .catGrdCard:nth-child(2) > a {
-    font-size: 0.8rem;
   }
 }
 /* Why Section */
