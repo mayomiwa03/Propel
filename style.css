@@ -100,6 +100,9 @@ nav {
 }
 
 @media (min-width: 260px) and (max-width: 500px) {
+  body {
+    overflow-x: hidden;
+  }
   .hamb {
     display: block;
     font-size: 2rem;
@@ -218,7 +221,7 @@ nav {
 }
 @media (min-width: 260px) and (max-width: 500px) {
   header {
-    height: 90vh;
+    height: 600px;
   }
   .heroSection {
     flex-direction: column;
@@ -391,6 +394,9 @@ nav {
   cursor: pointer;
 }
 @media (min-width: 260px) and (max-width: 500px) {
+  .coursesTabs {
+    flex-direction: column;
+  }
   .popularCoursesWrapper {
     grid-template-columns: 1fr;
     padding-inline: 1rem;
