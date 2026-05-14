@@ -632,6 +632,9 @@ nav {
   .TraImgs > img {
     width: 100%;
   }
+  .catGrdCard:nth-child(2) > a {
+    font-size: 0.8rem;
+  }
 }
 /* Why Section */
 .why {
