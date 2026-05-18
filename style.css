@@ -414,7 +414,9 @@ nav {
     max-width: 310px;
     margin: 0 auto;
   }
-
+  .popularCourseCard {
+    border: 0.5px solid #230f0f;
+  }
   .courseDate {
     font-size: 1rem;
   }
@@ -993,6 +995,11 @@ footer::before {
   }
   .footContainer > .footLeft {
     gap: 0.7rem;
+  }
+  .footCen {
+    display: flex;
+    /* align-items: center; */
+    gap: 5rem;
   }
   .footCen > div > p {
     padding-top: 0.7rem;
