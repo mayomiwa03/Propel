@@ -1010,6 +1010,10 @@ footer::before {
   .footRight > div > input {
     width: 50%;
   }
+  .footRight > div > input::placeholder,
+  .footRight > div > button {
+    font-size: 0.9rem;
+  }
   .footRight > p {
     font-size: 1rem;
     text-align: start;
